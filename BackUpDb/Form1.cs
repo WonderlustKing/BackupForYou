@@ -16,7 +16,7 @@ namespace BackUpDb
         {
             InitializeComponent();
         }
-        ConnectiontoDB conobject = new ConnectiontoDB(); // antikeimena ths klashs ConnectiontoDB gia na diaxeirhsh tou connection me bash
+        ConnectionToSql conobject = new ConnectionToSql(); // antikeimena ths klashs ConnectiontoDB gia na diaxeirhsh tou connection me bash
         private void connectButton_Click(object sender, EventArgs e)
         {
             StringBuilder connectstring = new StringBuilder();

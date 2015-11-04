@@ -24,3 +24,10 @@ E:\Google Drives\7ο Εξάμηνο\BackUpDb\BackUpDb\obj\Debug\BackUpDb.pdb
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\BackUpDb.exe.config
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.exe
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.pdb
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\BackUpDb.exe
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\BackUpDb.pdb
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.csprojResolveAssemblyReference.cache
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.Form1.resources
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.Form2.resources
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.Properties.Resources.resources
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.csproj.GenerateResource.Cache

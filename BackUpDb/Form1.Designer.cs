@@ -106,6 +106,7 @@
             this.hostnametextbox.Name = "hostnametextbox";
             this.hostnametextbox.Size = new System.Drawing.Size(217, 20);
             this.hostnametextbox.TabIndex = 6;
+            this.hostnametextbox.Text = "localhost";
             // 
             // usernametextbox
             // 
@@ -113,6 +114,7 @@
             this.usernametextbox.Name = "usernametextbox";
             this.usernametextbox.Size = new System.Drawing.Size(361, 20);
             this.usernametextbox.TabIndex = 7;
+            this.usernametextbox.Text = "root";
             // 
             // passwordtextbox
             // 

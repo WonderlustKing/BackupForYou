@@ -9,11 +9,13 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Data.Odbc;
 
 namespace BackUpDb
 {
-    class ConnectiontoDB
+    class ConnectionToSql
     {
+        //OdbcConnection cnn = null;
         StringBuilder connectstring = new StringBuilder();
         private String hostname = null;
         private String databasename = null;
@@ -24,8 +26,8 @@ namespace BackUpDb
         private Boolean flag = false;
         public void ConToDB()
         {
-            SqlConnection cnn;
-            cnn = new SqlConnection(Convert.ToString(connectstring));
+           cnn = new SqlConnection(Convert.ToString(@connectstring));
+           //cnn= new OdbcConnection(Convert.ToString(connectstring));
             try
 
             {
@@ -38,28 +40,29 @@ namespace BackUpDb
             {
                 MessageBox.Show("Can not open connection! ");
                 connectstring = null;
+                connectstring = new StringBuilder();
             }
         }
         public void setHostname(String hostname,String port)
         {
             this.hostname = hostname;
             this.port = port;
-            connectstring.Append("Data Source=" + this.hostname + ":" + this.port + ";");
+            connectstring.Append("Data Source=" + this.hostname +  ";");
         }
         public void setDatabaseName(String databasename)
         {
             this.databasename = databasename;
-            connectstring.Append("Data Source=" + this.databasename+ ";");
+            connectstring.Append("Initial Catalog=" + this.databasename+ ";");
         }
         public void setUsername(String username)
         {
             this.username = username;
-            connectstring.Append("Data Source=" + this.username + ";");
+            connectstring.Append("User id=" + this.username + ";");
         }
         public void setPassword(String password)
         {
             this.password = password;
-            connectstring.Append("Data Source=" + this.password + ";");
+            connectstring.Append("Password=" + this.password + ";");
         }
         public Boolean isConnected()
         {
@@ -91,6 +94,5 @@ namespace BackUpDb
             String str = Convert.ToString(connectstring);
             return str;
         }
-
     }
 }
