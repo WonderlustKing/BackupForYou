@@ -134,6 +134,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Connect to MySQL Server";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // treeView1
             // 
@@ -264,6 +265,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form2";
             this.Text = "Control Panel";
+            this.Click += new System.EventHandler(this.Form2_Click);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

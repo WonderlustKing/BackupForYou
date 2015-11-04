@@ -31,3 +31,7 @@ E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUp
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.Form2.resources
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.Properties.Resources.resources
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\obj\Debug\BackUpDb.csproj.GenerateResource.Cache
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\Oracle.DataAccess.dll
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\MySql.Data.dll
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\MySql.Data.Entity.EF5.dll
+E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\Oracle.ManagedDataAccess.dll

@@ -42,6 +42,9 @@
             this.databasename = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.MySQLRadiobutton = new System.Windows.Forms.RadioButton();
+            this.OracleRadionButton = new System.Windows.Forms.RadioButton();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -106,7 +109,7 @@
             this.hostnametextbox.Name = "hostnametextbox";
             this.hostnametextbox.Size = new System.Drawing.Size(217, 20);
             this.hostnametextbox.TabIndex = 6;
-            this.hostnametextbox.Text = "localhost";
+            this.hostnametextbox.Text = "127.0.0.1";
             // 
             // usernametextbox
             // 
@@ -130,7 +133,7 @@
             this.porttextbox.Name = "porttextbox";
             this.porttextbox.Size = new System.Drawing.Size(100, 20);
             this.porttextbox.TabIndex = 9;
-            this.porttextbox.Text = "3306";
+            this.porttextbox.Text = "1521";
             // 
             // databasename
             // 
@@ -138,6 +141,7 @@
             this.databasename.Name = "databasename";
             this.databasename.Size = new System.Drawing.Size(361, 20);
             this.databasename.TabIndex = 10;
+            this.databasename.Text = "test";
             // 
             // label5
             // 
@@ -158,11 +162,46 @@
             this.checkBox1.Text = "Remember Me";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // MySQLRadiobutton
+            // 
+            this.MySQLRadiobutton.AutoSize = true;
+            this.MySQLRadiobutton.Checked = true;
+            this.MySQLRadiobutton.Location = new System.Drawing.Point(499, 13);
+            this.MySQLRadiobutton.Name = "MySQLRadiobutton";
+            this.MySQLRadiobutton.Size = new System.Drawing.Size(60, 17);
+            this.MySQLRadiobutton.TabIndex = 13;
+            this.MySQLRadiobutton.TabStop = true;
+            this.MySQLRadiobutton.Text = "MySQL";
+            this.MySQLRadiobutton.UseVisualStyleBackColor = true;
+            // 
+            // OracleRadionButton
+            // 
+            this.OracleRadionButton.AutoSize = true;
+            this.OracleRadionButton.Location = new System.Drawing.Point(499, 37);
+            this.OracleRadionButton.Name = "OracleRadionButton";
+            this.OracleRadionButton.Size = new System.Drawing.Size(56, 17);
+            this.OracleRadionButton.TabIndex = 14;
+            this.OracleRadionButton.Text = "Oracle";
+            this.OracleRadionButton.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(499, 103);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 251);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.OracleRadionButton);
+            this.Controls.Add(this.MySQLRadiobutton);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.databasename);
@@ -199,6 +238,9 @@
         private System.Windows.Forms.TextBox databasename;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.RadioButton MySQLRadiobutton;
+        private System.Windows.Forms.RadioButton OracleRadionButton;
+        private System.Windows.Forms.Button button1;
     }
 
 }
