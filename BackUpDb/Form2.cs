@@ -13,14 +13,12 @@ namespace BackUpDb
 {
     public partial class Form2 : Form
     {
-        
+
         public Form2()
         {
-            InitializeComponent();
             
+            InitializeComponent();
         }
-        Form1 forma1 = new Form1();
-        
         private void SchedulecheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -44,7 +42,7 @@ namespace BackUpDb
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(forma1.Isconnected());
+            
         }
     }
 }
