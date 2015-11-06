@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
 
 namespace BackUpDb
 {
@@ -19,6 +15,7 @@ namespace BackUpDb
        
         StringBuilder connectstring;
         ConnectToServer conser = new ConnectToServer();
+        TcpClient tcpclnt = new TcpClient();
         private void connectButton_Click(object sender, EventArgs e)
         { 
             
@@ -48,9 +45,18 @@ namespace BackUpDb
                 {
                     MessageBox.Show("Insert password to Continue");//msgbox an den dwsei pass
                 }
-                Console.WriteLine(conser);       
+                     
             }
-
+            tcpclnt.Connect(conser.getHostname(),Convert.ToInt32(conser.getPort()));
+            if (tcpclnt.Connected) {
+                Form2 forma2 = new Form2();
+                this.Visible = false;
+                forma2.Visible = true;
+            }
+            else
+            {
+                
+            }
         }
         private void cancelButton_Click(object sender, EventArgs e)
         {

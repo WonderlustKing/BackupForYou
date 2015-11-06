@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Net;
+using System.Net.Sockets;
 
 namespace BackUpDb
 {
@@ -15,8 +17,7 @@ namespace BackUpDb
     {
 
         public Form2()
-        {
-            
+        {           
             InitializeComponent();
         }
         private void SchedulecheckBox_CheckedChanged(object sender, EventArgs e)
