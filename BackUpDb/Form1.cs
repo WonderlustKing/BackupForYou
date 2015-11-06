@@ -12,7 +12,7 @@ namespace BackUpDb
         {
             InitializeComponent();
         }
-       
+        
         StringBuilder connectstring;
         ConnectToServer conser = new ConnectToServer();
         TcpClient tcpclnt = new TcpClient();
@@ -55,7 +55,11 @@ namespace BackUpDb
             }
             else
             {
-                
+                porttextbox.Text = "3306";
+                hostnametextbox.Text = null;
+                    porttextbox.Text = null;
+                usernametextbox.Text = null;
+                passwordtextbox.Text = null;
             }
         }
         private void cancelButton_Click(object sender, EventArgs e)

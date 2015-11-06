@@ -265,6 +265,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form2";
             this.Text = "Control Panel";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.Click += new System.EventHandler(this.Form2_Click);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
