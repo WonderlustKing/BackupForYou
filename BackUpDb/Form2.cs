@@ -21,7 +21,7 @@ namespace BackUpDb
 
             InitializeComponent();
         }
-       
+        Form1 form1 = new Form1();
         private void SchedulecheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -34,7 +34,7 @@ namespace BackUpDb
 
         private void Runbutton_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Form2_Click(object sender, EventArgs e)
@@ -45,7 +45,8 @@ namespace BackUpDb
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            this.Visible = false;
+            form1.Show();
         }
 
         private void Form2_Load(object sender, EventArgs e)
