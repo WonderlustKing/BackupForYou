@@ -35,3 +35,6 @@ E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\Oracle
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\MySql.Data.dll
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\MySql.Data.Entity.EF5.dll
 E:\ΣΧΟΛΗ\7ο Εξάμηνο\dbBackUp\BackupForYou\BackUpDb\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\Google Drives\7ο Εξάμηνο\BackupForYou\BackUpDb\bin\Debug\BackUpDb.exe.config
+E:\Google Drives\7ο Εξάμηνο\BackupForYou\BackUpDb\obj\Debug\BackUpDb.exe
+E:\Google Drives\7ο Εξάμηνο\BackupForYou\BackUpDb\obj\Debug\BackUpDb.pdb
